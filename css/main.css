@@ -73,28 +73,8 @@ img {
   overflow: hidden;
 }
 
-.section-we-do__title {
-  justify-content: center;
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--color-title);
-}
-
-.team__title {
-  justify-content: center;
-  margin-bottom: 50px;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: var(--color-title);
-}
-
+.section-we-do__title,
+.team__title,
 .customers__title {
   justify-content: center;
   margin-bottom: 50px;
