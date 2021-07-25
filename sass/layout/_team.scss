@@ -19,29 +19,20 @@
     padding-top: 30px;
     padding-bottom: 30px;
   }
-
-  &__txt {
-    margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.03em;
-    text-align: center;
-    font-weight: 400;
-    color: var(--color-txt);
+  &__title {
+    @include title-h2();
   }
   &__name {
-    margin-bottom: 10px;
-    font-size: 16px;
-    line-height: 1.9;
-    font-weight: 500;
-    letter-spacing: 0.03em;
-    text-align: center;
-    color: var(--color-title);
+    @include team-name-text();
+  }
+  &__txt {
+    @include team-name-text($mb: 16px, $fw: 400, $color: var(--color-txt));
   }
 }
 
 .soc {
   display: flex;
+
   padding-right: 32px;
   padding-left: 32px;
   justify-content: space-between;

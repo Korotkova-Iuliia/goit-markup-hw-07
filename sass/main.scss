@@ -1,9 +1,10 @@
 @import "./base/common";
 @import "./base/container";
 @import "./utils/variables";
+@import "./utils/mixin";
 @import "./components/title-hidden";
-@import "./components/h2-title";
 @import "./components/logo";
+@import "./component/social-links";
 @import "./components/button";
 @import "./components/backdrop";
 @import "./components/modal-window";

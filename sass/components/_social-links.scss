@@ -1,0 +1,21 @@
+.soc {
+  &__title {
+    @include title-h3($mb: 20px, $color: #ffffff);
+  }
+  &__list {
+    display: flex;
+  }
+  &__item:not(:last-child) {
+    margin-right: 10px;
+  }
+  .&__link_theme-dark {
+    fill: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .&__link:hover,
+  .&__link:focus {
+    fill: #ffffff;
+    background-color: var(--color-accent);
+  }
+}

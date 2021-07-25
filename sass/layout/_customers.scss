@@ -10,6 +10,9 @@
     height: 92px;
     align-items: center;
   }
+  &__title {
+    @include title-h2();
+  }
 
   &__link {
     display: flex;

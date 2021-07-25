@@ -48,50 +48,14 @@
   color: var(--color-accent);
 }
 
-.footer-soc-title {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: #ffffff;
-}
-.footer-soc-ul {
-  display: flex;
-  margin-right: 93px;
-}
-footer .soc-list:not(:last-child) {
-  margin-right: 10px;
-}
-.soc-list-link-footer {
-  fill: #ffffff;
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.soc-list-link:hover,
-.soc-list-link:focus {
-  fill: #ffffff;
-  background-color: var(--color-accent);
-}
-
 .subscribe-form {
   margin-left: auto;
 }
 
 .subscribe-form__title {
   display: inline-block;
-  margin-bottom: 20px;
   width: 100%;
-
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
+  @include title-h3($mt: 0px, $mb: 20px, $color: #ffffff);
 }
 
 .subscribe-form-input {
