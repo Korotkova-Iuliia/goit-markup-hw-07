@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "ritwickdey.live-sass",
+        "ritwickdey.liveserver",
+        "ecmel.vscode-html-css",
+        "formulahendry.auto-rename-tag",
+        "esbenp.prettier-vscode"
+    ]
+}
